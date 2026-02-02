@@ -8,7 +8,7 @@ const networkCtx = networkCanvas.getContext("2d");
 
 const road=new Road(carCanvas.width/2,carCanvas.width*0.9);
 
-const N=100;
+const N=1;
 const cars=generateCars(N);
 let bestCar=cars[0];
 if(localStorage.getItem("bestBrain")){
@@ -22,6 +22,13 @@ if(localStorage.getItem("bestBrain")){
 }
 
 const traffic=[
+    new Car(road.getLaneCenter(1),-100,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(0),-300,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(2),-300,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(0),-500,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(1),-500,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(1),-700,30,50,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(2),-700,30,50,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(1),-100,30,50,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(0),-300,30,50,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(2),-300,30,50,"DUMMY",2,getRandomColor()),
