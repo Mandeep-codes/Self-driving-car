@@ -97,4 +97,4 @@ This project helped me understand **how learning systems behave**, not just how 
 
 Active — building in public 🚀
 
-If you’re interested in **AI / ML / simulations**, feel free to reach out or follow the
+If you’re interested in **AI / ML / simulations**, feel free to reach out or follow along i will make it on bigger map
