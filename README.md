@@ -1,4 +1,4 @@
-# Self-Driving Car Simulation (Build-in-Public)
+# Self-Driving Car Simulation
 
 A self-driving car simulation built **from scratch in JavaScript** to understand how **Neural Networks actually make decisions** — not just theory, but behavior.
 
